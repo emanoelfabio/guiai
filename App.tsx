@@ -292,6 +292,13 @@ const App: React.FC = () => {
                 />
               ))}
             </div>
+
+            {/* Footer com direitos reservados */}
+            <div className="pt-8 pb-4 text-center">
+              <p className="text-xs text-gray-500 dark:text-gray-400">
+                © {new Date().getFullYear()} Todos os direitos reservados a <span className="font-semibold text-brand">FsolutionBR</span>
+              </p>
+            </div>
           </div>
         );
       case 'tools':
