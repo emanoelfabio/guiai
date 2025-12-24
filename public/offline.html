@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuiAI - Offline</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            text-align: center;
+            max-width: 500px;
+        }
+        
+        .icon {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 30px;
+            background: linear-gradient(135deg, #4477EE, #3b68c3);
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 40px rgba(68, 119, 238, 0.3);
+        }
+        
+        .icon svg {
+            width: 70px;
+            height: 70px;
+            fill: white;
+        }
+        
+        h1 {
+            font-size: 32px;
+            color: #1e293b;
+            margin-bottom: 16px;
+            font-weight: 700;
+        }
+        
+        p {
+            font-size: 18px;
+            color: #64748b;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        
+        .button {
+            display: inline-block;
+            padding: 14px 32px;
+            background: linear-gradient(135deg, #4477EE, #3b68c3);
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 20px rgba(68, 119, 238, 0.3);
+        }
+        
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(68, 119, 238, 0.4);
+        }
+        
+        .info {
+            margin-top: 40px;
+            padding: 20px;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        .info h2 {
+            font-size: 18px;
+            color: #1e293b;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        
+        .info ul {
+            list-style: none;
+            text-align: left;
+        }
+        
+        .info li {
+            padding: 8px 0;
+            color: #64748b;
+            font-size: 15px;
+        }
+        
+        .info li::before {
+            content: "✓ ";
+            color: #4477EE;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+            </svg>
+        </div>
+        
+        <h1>Você está offline</h1>
+        <p>Não foi possível conectar à internet. Algumas funcionalidades podem estar limitadas, mas você ainda pode acessar o conteúdo em cache.</p>
+        
+        <a href="/" class="button" onclick="window.location.reload(); return false;">Tentar Novamente</a>
+        
+        <div class="info">
+            <h2>Funcionalidades Disponíveis Offline:</h2>
+            <ul>
+                <li>Visualizar categorias em cache</li>
+                <li>Acessar ferramentas salvas</li>
+                <li>Navegar pelo conteúdo carregado</li>
+                <li>Interface completa do aplicativo</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

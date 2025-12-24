@@ -1,0 +1,58 @@
+{
+    "name": "GuiAI - Guia de Ferramentas de IA",
+    "short_name": "GuiAI",
+    "description": "Diretório completo de ferramentas de Inteligência Artificial organizadas por categoria",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#EEF2FF",
+    "theme_color": "#4477EE",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/icons/icon-192x192.svg",
+            "sizes": "192x192",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "/icons/icon-192x192.svg",
+            "sizes": "192x192",
+            "type": "image/svg+xml",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icons/icon-512x512.svg",
+            "sizes": "512x512",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "/icons/icon-512x512.svg",
+            "sizes": "512x512",
+            "type": "image/svg+xml",
+            "purpose": "maskable"
+        }
+    ],
+    "categories": [
+        "productivity",
+        "utilities",
+        "education"
+    ],
+    "lang": "pt-BR",
+    "dir": "ltr",
+    "shortcuts": [
+        {
+            "name": "Explorar Categorias",
+            "short_name": "Categorias",
+            "description": "Ver todas as categorias de IA",
+            "url": "/",
+            "icons": [
+                {
+                    "src": "/icons/icon-192x192.svg",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ],
+    "screenshots": []
+}

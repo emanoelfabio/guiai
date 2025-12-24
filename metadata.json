@@ -1,0 +1,7 @@
+{
+  "name": "Guia de Ferramentas de IA",
+  "description": "Um diretório completo e visual para as 10 melhores ferramentas de IA em diversas categorias, inspirado nos principais sites de tecnologia.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
